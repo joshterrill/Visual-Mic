@@ -1,0 +1,4 @@
+﻿.DS_Store
+*.npy
+*-out.wave
+video_samples/*.avi

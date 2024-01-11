@@ -1,4 +1,5 @@
 opencv-contrib-python==4.5.3.56
+opencv-python==4.9.0.80
 scipy==1.5.0
 dtcwt==0.12.0
 numpy==1.18.5

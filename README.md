@@ -14,19 +14,16 @@ You can follow this link from [Youtube](https://www.youtube.com/watch?v=YYXdXT2l
 
 ###  B. Rest of the setup
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/joeljose/Visual-Mic.git
-   ```
-2. Navigate to "Visual-Mic" repo.
-3. pip install all the python modules from requirements.txt(you should be in the "Visual-Mic" repository when you execute this command.)
-   ```sh
-   pip install requirements.txt
-   ```
-4. The video which is to be processed should be in the "Visual-Mic" repo, named as "testvid.avi". 
+```sh
+git clone https://github.com/joeljose/Visual-Mic.git
+cd Visual-Mic/
+pip install -r requirements.txt
+python visualmic.py myvideofile.avi
+```
 
-Now you can run visualmic.py 
+###  C. Features coming soon
 
+1. Parallel frame processing
 
 ## Details of Recovering Sound from Video
 
@@ -73,5 +70,3 @@ To denoise the ouput audio file we get from visualmic.py, we apply image based m
 <a href="https://www.linkedin.com/in/joel-jose-527b80102/" target="_blank"><img class="ai-subscribed-social-icon" src="https://github.com/joeljose/assets/blob/master/images/lnkdn.png" width="30"></a>
 
 <h3 align="center">Show your support by starring the repository 🙂</h3>
-
-
